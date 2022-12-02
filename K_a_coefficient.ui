@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>555</width>
+    <height>297</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>60</y>
+     <width>461</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>均匀平稳</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>轻微冲击</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>中等冲击</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>严重冲击</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>均匀平稳</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>轻微冲击</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>中等冲击</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>严重冲击</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>1.00
+</string>
+    </property>
+   </item>
+   <item row="0" column="1">
+    <property name="text">
+     <string>1.25</string>
+    </property>
+   </item>
+   <item row="0" column="2">
+    <property name="text">
+     <string>1.50</string>
+    </property>
+   </item>
+   <item row="0" column="3">
+    <property name="text">
+     <string>1.75</string>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>1.10</string>
+    </property>
+   </item>
+   <item row="1" column="1">
+    <property name="text">
+     <string>1.35</string>
+    </property>
+   </item>
+   <item row="1" column="2">
+    <property name="text">
+     <string>1.60</string>
+    </property>
+   </item>
+   <item row="1" column="3">
+    <property name="text">
+     <string>1.85</string>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>1.25</string>
+    </property>
+   </item>
+   <item row="2" column="1">
+    <property name="text">
+     <string>1.50</string>
+    </property>
+   </item>
+   <item row="2" column="2">
+    <property name="text">
+     <string>1.75</string>
+    </property>
+   </item>
+   <item row="2" column="3">
+    <property name="text">
+     <string>2.00</string>
+    </property>
+   </item>
+   <item row="3" column="0">
+    <property name="text">
+     <string>1.50</string>
+    </property>
+   </item>
+   <item row="3" column="1">
+    <property name="text">
+     <string>1.75</string>
+    </property>
+   </item>
+   <item row="3" column="2">
+    <property name="text">
+     <string>2.00</string>
+    </property>
+   </item>
+   <item row="3" column="3">
+    <property name="text">
+     <string>2.25或更大</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>使用系数KA</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>220</y>
+     <width>386</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>注：1.对于增速传动，根据经验建议取表中值的1.1倍。</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>    2.当外部机械与齿轮装置之间有挠性联接时，通常KA值可适当减小。</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>    3.在采用表荐值时，至少应取最小弯曲强度安全系数SFmin=1.25。</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>41</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>原动机</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>30</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>工作机工作特性</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>140</y>
+     <width>54</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>工作特性</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

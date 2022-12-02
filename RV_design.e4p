@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-5.1.dtd">
+<!-- eric project file for project RV_design -->
+<!-- Saved: 2018-12-10, 21:47:48 -->
+<!-- Copyright (C) 2018 ,  -->
+<Project version="5.1">
+  <Language>en_US</Language>
+  <Hash>7eaf455a44e7b7a9047c3d27fa0fd6fb619ffaa2</Hash>
+  <ProgLanguage mixed="0">Python3</ProgLanguage>
+  <ProjectType>PySide2</ProjectType>
+  <Version>0.1</Version>
+  <Author></Author>
+  <Email></Email>
+  <Eol index="0"/>
+  <Sources>
+    <Source>GA/GA.py</Source>
+    <Source>GA/Ui_GA.py</Source>
+    <Source>GA/aimfuc.py</Source>
+    <Source>GA/awGA_usr.py</Source>
+    <Source>GA/nsga2_usr.py</Source>
+    <Source>GA/punishing.py</Source>
+    <Source>GA/q_sorted_new_usr.py</Source>
+    <Source>GA/q_sorted_usr.py</Source>
+    <Source>GA/rwGA_usr.py</Source>
+    <Source>Ui_K_a_coefficient.py</Source>
+    <Source>Ui_main_window.py</Source>
+    <Source>Ui_teethmatch_tool_window.py</Source>
+    <Source>main_window.py</Source>
+    <Source>teethmatch_tool_window.py</Source>
+  </Sources>
+  <Forms>
+    <Form>GA/GA.ui</Form>
+    <Form>K_a_coefficient.ui</Form>
+    <Form>main_window.ui</Form>
+    <Form>teethmatch_tool_window.ui</Form>
+  </Forms>
+  <MainScript>main_window.py</MainScript>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.e4p" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
+    <FiletypeAssociation pattern="*.md" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.proto" type="PROTOCOLS"/>
+    <FiletypeAssociation pattern="*.py" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES"/>
+    <FiletypeAssociation pattern="*.rst" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.txt" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.ui" type="FORMS"/>
+    <FiletypeAssociation pattern="GNUmakefile" type="OTHERS"/>
+    <FiletypeAssociation pattern="Makefile" type="OTHERS"/>
+    <FiletypeAssociation pattern="README" type="OTHERS"/>
+    <FiletypeAssociation pattern="README.*" type="OTHERS"/>
+    <FiletypeAssociation pattern="makefile" type="OTHERS"/>
+  </FiletypeAssociations>
+</Project>
